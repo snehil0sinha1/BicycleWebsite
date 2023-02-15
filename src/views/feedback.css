@@ -1,0 +1,339 @@
+.feedback-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.feedback-container1 {
+  width: 100%;
+  height: 1964px;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  background-image: url("/playground_assets/product%20%5B1%5D-2000h.png");
+  background-position: center;
+}
+.feedback-logo1 {
+  top: 99px;
+  left: 18px;
+  width: 314px;
+  height: 82px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  background-image: url("/playground_assets/pastedimage-3lnp-200h.png");
+  background-position: center;
+}
+.feedback-logo2 {
+  top: 99px;
+  right: 94px;
+  width: 100px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  background-image: url("/playground_assets/pastedimage-5ll-200h.png");
+  background-position: center;
+}
+.feedback-des {
+  top: 372px;
+  left: 311px;
+  color: rgb(255, 255, 255);
+  width: 710px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Kadwa;
+  font-weight: 700;
+  line-height: 40px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.feedback-social-media {
+  flex: 0 0 auto;
+  left: 86px;
+  width: 10%;
+  bottom: 168px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.feedback-link {
+  display: contents;
+}
+.feedback-icon {
+  width: 50px;
+  height: 50px;
+}
+.feedback-link1 {
+  display: contents;
+}
+.feedback-icon2 {
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+.feedback-link2 {
+  display: contents;
+}
+.feedback-icon4 {
+  width: 50px;
+  height: 50px;
+  padding-left: 8px;
+  text-decoration: none;
+}
+.feedback-rectangle4021 {
+  top: 714px;
+  left: 298px;
+  width: 831px;
+  height: 679px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+.feedback-feedback-form {
+  top: 782px;
+  left: 422px;
+  width: 556px;
+  height: 556px;
+  display: flex;
+  position: absolute;
+}
+.feedback-textinput {
+  top: 31px;
+  left: 40px;
+  position: absolute;
+  border-style: groove;
+}
+.feedback-textinput1 {
+  top: 96px;
+  left: 42px;
+  position: absolute;
+  border-style: groove;
+}
+.feedback-textarea {
+  top: 164px;
+  left: 39px;
+  width: 300px;
+  height: 166px;
+  position: absolute;
+  border-style: groove;
+}
+.feedback-button {
+  top: 359px;
+  left: 40px;
+  position: absolute;
+  border-style: groove;
+  background-color: rgb(153, 170, 181);
+}
+@media(max-width: 1200px) {
+  .feedback-container1 {
+    height: 1430px;
+  }
+  .feedback-logo1 {
+    top: 65px;
+    left: 4px;
+    width: 250px;
+    height: 75px;
+  }
+  .feedback-logo2 {
+    top: 80px;
+    right: 83px;
+    width: 81px;
+    height: 30px;
+  }
+  .feedback-des {
+    top: 261px;
+    left: 249px;
+    color: rgb(255, 255, 255);
+    width: 670px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Kadwa;
+    font-weight: 700;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  .feedback-social-media {
+    left: 79px;
+    bottom: 94px;
+  }
+  .feedback-rectangle4021 {
+    top: 580px;
+    left: 236px;
+    width: 721px;
+    height: 569px;
+    position: absolute;
+  }
+  .feedback-feedback-form {
+    top: 614px;
+    left: 280px;
+    width: 631px;
+    height: 468px;
+  }
+}
+@media(max-width: 991px) {
+  .feedback-container1 {
+    height: 1081px;
+  }
+  .feedback-logo1 {
+    top: 73px;
+    left: 16px;
+    width: 200px;
+    height: 70px;
+  }
+  .feedback-logo2 {
+    top: 88px;
+    right: 72px;
+    width: 68px;
+  }
+  .feedback-des {
+    top: 180px;
+    left: 181px;
+    width: 510px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .feedback-social-media {
+    left: 79px;
+    bottom: 90px;
+  }
+  .feedback-rectangle4021 {
+    top: 416px;
+    left: 150px;
+    width: 565px;
+    height: 462px;
+  }
+  .feedback-feedback-form {
+    top: 445px;
+    left: 175px;
+    width: 505px;
+    height: 417px;
+  }
+  .feedback-textinput {
+    width: 200px;
+  }
+  .feedback-textinput1 {
+    width: 200px;
+  }
+  .feedback-textarea {
+    top: 159px;
+    left: 39px;
+    width: 230px;
+    height: 115px;
+  }
+  .feedback-button {
+    top: 300px;
+  }
+}
+@media(max-width: 767px) {
+  .feedback-container1 {
+    height: 917px;
+  }
+  .feedback-logo1 {
+    top: 57px;
+    left: 3px;
+    width: 150px;
+    height: 42px;
+  }
+  .feedback-logo2 {
+    top: 70px;
+    right: 53px;
+    width: 50px;
+    height: 20px;
+  }
+  .feedback-des {
+    top: 141px;
+    left: 133px;
+    font-size: 15px;
+    line-height: 27px;
+  }
+  .feedback-social-media {
+    left: 71px;
+    bottom: 65px;
+  }
+  .feedback-rectangle4021 {
+    top: 313px;
+    left: 110px;
+    width: 446px;
+    height: 420px;
+  }
+  .feedback-feedback-form {
+    top: 327px;
+    left: 123px;
+    width: 410px;
+    height: 396px;
+  }
+}
+@media(max-width: 479px) {
+  .feedback-container1 {
+    height: 643px;
+  }
+  .feedback-logo1 {
+    top: 32px;
+    left: 2px;
+    width: 120px;
+    height: 32px;
+  }
+  .feedback-logo2 {
+    top: 40px;
+    right: 32px;
+    width: 35px;
+    height: 18px;
+  }
+  .feedback-des {
+    top: 101px;
+    left: 70px;
+    width: 270px;
+    font-size: 9px;
+    line-height: 20px;
+  }
+  .feedback-social-media {
+    left: 36px;
+    bottom: 51px;
+  }
+  .feedback-rectangle4021 {
+    top: 251px;
+    left: 58px;
+    width: 273px;
+    height: 268px;
+  }
+  .feedback-feedback-form {
+    top: 264px;
+    left: 65px;
+    width: 251px;
+    height: 241px;
+  }
+  .feedback-textinput {
+    top: 12px;
+    left: 21px;
+    width: 190px;
+    height: 23px;
+  }
+  .feedback-textinput1 {
+    top: 46px;
+    left: 21px;
+    width: 190px;
+    height: 23px;
+  }
+  .feedback-textarea {
+    top: 84px;
+    left: 19px;
+    width: 194px;
+    height: 68px;
+    heigth: 10px;
+  }
+  .feedback-button {
+    top: 167px;
+    left: 22px;
+    height: 32px;
+  }
+}

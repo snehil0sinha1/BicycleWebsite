@@ -1,0 +1,786 @@
+.what-are-we-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.what-are-we-landing-page {
+  width: 100%;
+  height: 1023px;
+  display: flex;
+  position: relative;
+  background-size: cover;
+  background-image: url("/playground_assets/cycle-1100h.png");
+  background-position: center;
+}
+.what-are-we-logo1 {
+  top: 99px;
+  left: 18px;
+  width: 314px;
+  height: 82px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  background-image: url("/playground_assets/pastedimage-3lnp-200h.png");
+  background-position: center;
+}
+.what-are-we-logo2 {
+  top: 99px;
+  right: 94px;
+  width: 100px;
+  height: 37px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  background-image: url("/playground_assets/pastedimage-5ll-200h.png");
+  background-position: center;
+}
+.what-are-we-heading1 {
+  top: 262px;
+  color: rgb(255, 255, 255);
+  right: 82px;
+  width: 450px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 130%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-text {
+  top: 403px;
+  color: rgba(255, 255, 255, 1);
+  right: 39px;
+  width: 563px;
+  height: auto;
+  position: absolute;
+  font-size: 23px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Kadwa;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-button1 {
+  top: 679px;
+  right: 140px;
+  width: 225px;
+  height: 79px;
+  display: flex;
+  position: absolute;
+  background-size: cover;
+  background-image: url("/playground_assets/pastedimage-jmc8-200h.png");
+  background-position: center;
+}
+.what-are-we-i-n-t1 {
+  width: 100%;
+  height: 1156px;
+  display: flex;
+  background-size: cover;
+  background-image: url("/playground_assets/josh-nuttall-unq-ttg_qny-unsplash%201-1200h.png");
+  background-position: center;
+}
+.what-are-we-header {
+  top: 1072px;
+  left: 491px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rhodium Libre;
+  font-weight: 400;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-t1 {
+  top: 1283px;
+  left: 102px;
+  color: rgba(255, 255, 255, 1);
+  width: 457px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-s1 {
+  top: 1407px;
+  left: 103px;
+  color: rgba(255, 255, 255, 1);
+  width: 630px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-t2 {
+  top: 1740px;
+  color: rgba(255, 255, 255, 1);
+  right: 204px;
+  width: 457px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-s2 {
+  top: 1841px;
+  color: rgba(255, 255, 255, 1);
+  right: 29px;
+  width: 630px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-i-n-t2 {
+  width: 100%;
+  height: 1056px;
+  display: flex;
+  background-size: cover;
+  background-image: url("/playground_assets/frame%2010-1100h.png");
+  background-position: center;
+}
+.what-are-we-t3 {
+  top: 2289px;
+  color: rgba(255, 255, 255, 1);
+  right: 50px;
+  width: 509px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-s3 {
+  top: 2443px;
+  color: rgba(255, 255, 255, 1);
+  right: 9px;
+  width: 600px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 30px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-t4 {
+  top: 2896px;
+  left: 175px;
+  color: rgba(255, 255, 255, 1);
+  width: 550px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-s4 {
+  top: 2989px;
+  left: 170px;
+  color: rgba(255, 255, 255, 1);
+  width: 630px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-i-n-t3 {
+  width: 100%;
+  height: 1038px;
+  display: flex;
+  background-size: cover;
+  background-image: url("/playground_assets/frame%2014-1100h.png");
+  background-position: center;
+}
+.what-are-we-t5 {
+  top: 3283px;
+  left: 104px;
+  color: rgba(255, 255, 255, 1);
+  width: 522px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  align-self: auto;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.what-are-we-s5 {
+  top: 3372px;
+  left: 69px;
+  color: rgba(255, 255, 255, 1);
+  width: 550px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: auto;
+  font-style: italic;
+  text-align: left;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 35px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .what-are-we-logo1 {
+    top: 122px;
+    left: 14px;
+  }
+  .what-are-we-logo2 {
+    top: 130px;
+    right: 91px;
+  }
+}
+@media(max-width: 1200px) {
+  .what-are-we-landing-page {
+    width: 100%;
+    height: 900px;
+  }
+  .what-are-we-logo1 {
+    top: 65px;
+    left: 4px;
+    width: 250px;
+    height: 75px;
+  }
+  .what-are-we-logo2 {
+    top: 80px;
+    right: 83px;
+    width: 81px;
+    height: 30px;
+  }
+  .what-are-we-heading1 {
+    top: 231px;
+    right: 15px;
+    width: 480px;
+    position: absolute;
+    font-size: 35px;
+  }
+  .what-are-we-text {
+    top: 360px;
+    right: 39px;
+    width: 460px;
+    position: absolute;
+    font-size: 20;
+  }
+  .what-are-we-button1 {
+    top: 622px;
+    right: 99px;
+    width: 182px;
+    height: 68px;
+  }
+  .what-are-we-i-n-t1 {
+    height: 1015px;
+  }
+  .what-are-we-header {
+    top: 935px;
+    left: 375px;
+    position: absolute;
+    font-size: 50px;
+  }
+  .what-are-we-t1 {
+    top: 1087px;
+    left: 84px;
+    color: rgb(255, 255, 255);
+    width: 420px;
+    position: absolute;
+    font-size: 45px;
+    font-family: Poppins;
+    font-weight: 800;
+    line-height: 130%;
+    text-decoration: none;
+  }
+  .what-are-we-s1 {
+    top: 1196px;
+    left: 57px;
+    position: absolute;
+  }
+  .what-are-we-t2 {
+    top: 1506px;
+    right: 58px;
+    position: absolute;
+    font-size: 45px;
+  }
+  .what-are-we-s2 {
+    top: 1595px;
+    right: 12px;
+    position: absolute;
+  }
+  .what-are-we-i-n-t2 {
+    height: 960px;
+  }
+  .what-are-we-t3 {
+    top: 1969px;
+    right: 61px;
+    width: 430px;
+    position: absolute;
+    font-size: 45;
+  }
+  .what-are-we-s3 {
+    top: 2112px;
+    right: 51px;
+    width: 470px;
+    position: absolute;
+    font-size: 22;
+  }
+  .what-are-we-t4 {
+    top: 2483px;
+    left: 50px;
+    width: 470px;
+    position: absolute;
+    font-size: 45px;
+  }
+  .what-are-we-s4 {
+    top: 2584px;
+    left: 43px;
+    width: 570px;
+    position: absolute;
+  }
+  .what-are-we-i-n-t3 {
+    height: 960px;
+  }
+  .what-are-we-t5 {
+    top: 2936px;
+    left: 73px;
+    width: 430px;
+    position: absolute;
+    font-size: 45;
+  }
+  .what-are-we-s5 {
+    top: 3018px;
+    left: 58px;
+    width: 520px;
+    position: absolute;
+    font-size: 25;
+    line-height: 30px;
+  }
+}
+@media(max-width: 991px) {
+  .what-are-we-landing-page {
+    width: 100%;
+    height: 700px;
+  }
+  .what-are-we-logo1 {
+    top: 73px;
+    left: 16px;
+    width: 200px;
+    height: 70px;
+  }
+  .what-are-we-logo2 {
+    top: 88px;
+    right: 72px;
+    width: 68px;
+  }
+  .what-are-we-heading1 {
+    top: 183px;
+    right: 56px;
+    width: 350px;
+    position: absolute;
+    font-size: 30px;
+  }
+  .what-are-we-text {
+    top: 285px;
+    color: rgb(255, 255, 255);
+    right: 54px;
+    width: 360px;
+    font-size: 15px;
+    font-family: Kadwa;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .what-are-we-button1 {
+    top: 497px;
+    right: 95px;
+    width: 165px;
+    height: 59px;
+  }
+  .what-are-we-i-n-t1 {
+    height: 824px;
+  }
+  .what-are-we-header {
+    top: 744px;
+    left: 325px;
+    font-size: 40px;
+  }
+  .what-are-we-t1 {
+    top: 855px;
+    left: 64px;
+    width: 350px;
+    font-size: 35;
+  }
+  .what-are-we-s1 {
+    top: 939px;
+    left: 65px;
+    width: 550px;
+    font-size: 20;
+  }
+  .what-are-we-t2 {
+    top: 1200px;
+    right: 81px;
+    width: 300px;
+    font-size: 35;
+  }
+  .what-are-we-s2 {
+    top: 1272px;
+    right: 38px;
+    width: 430px;
+    font-size: 20;
+  }
+  .what-are-we-i-n-t2 {
+    height: 760px;
+  }
+  .what-are-we-t3 {
+    top: 1588px;
+    right: 60px;
+    width: 320px;
+    font-size: 35;
+  }
+  .what-are-we-s3 {
+    top: 1699px;
+    right: 23px;
+    width: 360px;
+    font-size: 20;
+    line-height: 27px;
+  }
+  .what-are-we-t4 {
+    top: 1957px;
+    left: 33px;
+    width: 380px;
+    font-size: 35;
+  }
+  .what-are-we-s4 {
+    top: 2034px;
+    left: 38px;
+    width: 470px;
+    font-size: 20;
+  }
+  .what-are-we-i-n-t3 {
+    height: 760px;
+  }
+  .what-are-we-t5 {
+    top: 2319px;
+    left: 38px;
+    width: 320px;
+    font-size: 35;
+  }
+  .what-are-we-s5 {
+    top: 2382px;
+    left: 21px;
+    width: 400px;
+    font-size: 20;
+  }
+}
+@media(max-width: 767px) {
+  .what-are-we-landing-page {
+    width: 100%;
+    height: 571px;
+  }
+  .what-are-we-logo1 {
+    top: 57px;
+    left: 3px;
+    width: 150px;
+    height: 42px;
+  }
+  .what-are-we-logo2 {
+    top: 70px;
+    right: 53px;
+    width: 50px;
+    height: 20px;
+  }
+  .what-are-we-heading1 {
+    top: 156px;
+    right: 49px;
+    width: 260px;
+    font-size: 22px;
+  }
+  .what-are-we-text {
+    top: 233px;
+    right: 54px;
+    width: 260px;
+    font-size: small;
+    line-height: 20px;
+    letter-spacing: auto;
+  }
+  .what-are-we-button1 {
+    top: 404px;
+    right: 78px;
+    width: 132px;
+    height: 36px;
+  }
+  .what-are-we-i-n-t1 {
+    height: 561px;
+  }
+  .what-are-we-header {
+    top: 599px;
+    left: 229px;
+    width: 300px;
+    font-size: 30px;
+  }
+  .what-are-we-t1 {
+    top: 688px;
+    left: 62px;
+    width: 250px;
+    font-size: 25px;
+  }
+  .what-are-we-s1 {
+    top: 730px;
+    left: 54px;
+    width: 380px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .what-are-we-t2 {
+    top: 913px;
+    right: 68px;
+    width: 200px;
+    font-size: 25px;
+  }
+  .what-are-we-s2 {
+    top: 957px;
+    right: 15px;
+    width: 300px;
+    height: auto;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .what-are-we-i-n-t2 {
+    height: 561px;
+  }
+  .what-are-we-t3 {
+    top: 1186px;
+    right: 52px;
+    width: 220px;
+    font-size: 25px;
+  }
+  .what-are-we-s3 {
+    top: 1251px;
+    right: 16px;
+    width: 260px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .what-are-we-t4 {
+    top: 1451px;
+    left: 40px;
+    width: 280px;
+    font-size: 25px;
+  }
+  .what-are-we-s4 {
+    top: 1514px;
+    left: 18px;
+    width: 420px;
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .what-are-we-i-n-t3 {
+    height: 561px;
+  }
+  .what-are-we-t5 {
+    top: 1730px;
+    left: 24px;
+    width: 230px;
+    font-size: 25px;
+  }
+  .what-are-we-s5 {
+    top: 1772px;
+    left: 17px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media(max-width: 479px) {
+  .what-are-we-landing-page {
+    width: 100%;
+    height: 357px;
+  }
+  .what-are-we-logo1 {
+    top: 32px;
+    left: 2px;
+    width: 120px;
+    height: 32px;
+  }
+  .what-are-we-logo2 {
+    top: 40px;
+    right: 32px;
+    width: 35px;
+    height: 18px;
+  }
+  .what-are-we-heading1 {
+    top: 87px;
+    right: 4px;
+    width: 150px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+  }
+  .what-are-we-text {
+    top: 138px;
+    right: 10px;
+    width: 180px;
+    font-size: 9px;
+    line-height: 13px;
+  }
+  .what-are-we-button1 {
+    top: 245px;
+    right: 31px;
+    width: 70px;
+    height: 25px;
+  }
+  .what-are-we-i-n-t1 {
+    height: 400px;
+  }
+  .what-are-we-header {
+    top: 379px;
+    left: 152px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .what-are-we-t1 {
+    top: 443px;
+    left: 47px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .what-are-we-s1 {
+    top: 477px;
+    left: 35px;
+    width: 250px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .what-are-we-t2 {
+    top: 611px;
+    left: 199px;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 800;
+    line-height: 130%;
+    text-decoration: none;
+  }
+  .what-are-we-s2 {
+    top: 640px;
+    right: 44px;
+    width: 200px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .what-are-we-i-n-t2 {
+    height: 400px;
+  }
+  .what-are-we-t3 {
+    top: 788px;
+    right: 44px;
+    width: 150px;
+    font-size: 15px;
+  }
+  .what-are-we-s3 {
+    top: 833px;
+    right: 20px;
+    width: 180px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .what-are-we-t4 {
+    top: 989px;
+    left: 25px;
+    width: 160px;
+    font-size: 15px;
+  }
+  .what-are-we-s4 {
+    top: 1028px;
+    left: 16px;
+    width: 300px;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .what-are-we-i-n-t3 {
+    height: 400px;
+  }
+  .what-are-we-t5 {
+    top: 1187px;
+    left: 19px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .what-are-we-s5 {
+    top: 1216px;
+    left: 12px;
+    width: 170px;
+    font-size: 8px;
+    line-height: 14px;
+  }
+}
